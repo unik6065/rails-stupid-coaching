@@ -1,0 +1,13 @@
+<div class="ms-3 mt-3">
+  <div class="alert alert-simple">
+    <h2><%= params[:question]%> </h2>
+    <p>- You</p>
+  </div>
+
+  <div class="alert alert-warning w-50">
+    <h2><%=@coach_answer%></h2>
+    <p>- Your coach</p>
+  </div>
+
+  <%= link_to 'Ask a new question', ask_path  %>
+</div>
